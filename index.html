@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width= device-width. intial-scale=1.0" />
+  <title>Bablu Yadav-Front End Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="preload" as="image" href="./assets/images/Bablu Profile-Pic.png" />
+  <!--<link rel="preload" as="image" href="./assets/images/image-mask.svg" />-->
+</head>
+
+<body class="black">
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">Bablu Yadav</a>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">Bablu Yadav</a>
+          <button class="navbar-close-btn" data-nav-toggler>
+            <i class="fa fa-window-close" style="color: #fdff00"></i>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+        <div class="theme-wrapper">
+          <button id="theme-btn" class="btn theme">Change Theme</button>
+        </div>
+      </nav>
+      <button class="nav-open-btn" data-nav-toggler>
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <section class="section hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="h1 title">Hi, I'm Bablu Yadav.Front End Web Developer.</h1>
+            <p class="section-text">
+              Hello! I'm Bablu Yadav,Pursuing MCA & Front end Developer,Data Analyst
+              based in Bhilai. I’m very passionate about the work
+              that I do.
+            </p>
+            <div class="social-icons-wrapper">
+              <i style="color: blue" class="fa-brands fa-linkedin"></i>
+
+              <i style="color: skyblue" class="fa-brands fa-github"></i>
+              <i style="color: red" class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn">See My Works</button>
+              <button class="btn">Contact Me</button>
+            </div>
+          </div>
+          <figure class="hero-banner">
+            <img src="./assets/images/Bablu Profile-Pic.png" width="560" height="560" alt="Bablu Yadav" class="w-100" />
+          </figure>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section class="section about">
+        <div class="container">
+          <div class="wrapper">
+            <div class="left">
+              <h2 class="h2 section-title">My Skills</h2>
+              <p class="section-text">
+                I am Front-End-Developer
+              </p>
+            </div>
+            <ul class="progress-list">
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>Web Development</p>
+                  <span class="span">70 %</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #f3b500"></div>
+                </div>
+              </li>
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>Data Analytics</p>
+                  <span class="span">80 %</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #ea07b9"></div>
+                </div>
+              </li>
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>Frontend Development</p>
+                  <span class="span">60 %</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #02e9cf"></div>
+                </div>
+              </li>
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>Python</p>
+                  <span class="span">70 %</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #ef7816"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <ul class="grid-list">
+            <li>
+              <div class="about-card">
+                <div class="card-icon">
+                  <i style="color: #f3b500" class="fa-solid fa-code"></i>
+                </div>
+                <h3 class="h4 card-title">Web Design</h3>
+                <p class="card-text">
+                  Passionate and detail-oriented intermediate web developer with experience in HTML,
+                  CSS, JavaScript, and front-end development. Skilled in building responsive websites
+                  and interactive web applications. Enthusiastic about learning new technologies and
+                  improving user experiences."
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="about-card">
+                <div class="card-icon">
+                  <i style="color: #ea07b9" class="fa-solid fa-database"></i>
+                </div>
+                <h3 class="h4 card-title">Data Analytics</h3>
+                <p class="card-text">
+                  Detail-oriented and analytical data professional with a strong foundation in
+                  data visualization, statistical analysis, and business intelligence. Proficient
+                  in tools like Power BI, Excel, and SQL to derive actionable insights.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="about-card">
+                <div class="card-icon">
+                  <i style="color: #02e9cf" class="fa-solid fa-file-code"></i>
+                </div>
+                <h3 class="h4 card-title">Python Developer</h3>
+                <p class="card-text">
+                  Passionate and detail-oriented Python developer with a strong foundation in
+                  data structures, algorithms, and software development. building web
+                  applications, automation scripts, and data analysis solutions.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="about-card">
+                <div class="card-icon">
+                  <i style="color: #ef7816" class="fa-brands fa-codepen"></i>
+                </div>
+                <h3 class="h4 card-title">Power BI Developer</h3>
+                <p class="card-text">
+                  Intermediate Power BI Developer with experience in creating interactive
+                  dashboards, data visualization, and business intelligence solutions.
+                  Skilled in data modeling, DAX, Power Query, and integrating multiple
+                  data sources for insightful reporting.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="divider"></div>
+
+      <section class="section project">
+        <div class="container">
+          <div class="title-wrapper">
+            <div>
+              <h2 class="h2 section-title">Latest Projects</h2>
+              <p class="section-text">
+                Check out some of my latest projects.
+              </p>
+            </div>
+            <button class="btn">See All Projects</button>
+          </div>
+          <ul class="grid-list">
+            <li>
+              <div class="project-card project-card-one">
+                <div class="card-content">
+                  <p class="card-type">Web Design</p>
+                  <h3 class="h3 card-title">Calculator App</h3>
+                  <p class="card-text">
+                    Developed a user-friendly calculator using HTML, CSS,
+                    and JavaScript, featuring basic arithmetic operations
+                    and a responsive design for seamless usability across devices.
+                  </p>
+                  <a href="#" class="btn-text" style="color: #040404"><span class="span">See
+                      Project</span></a>
+                </div>
+                <figure class="card-banner">
+                  <img src="./assets/images/Calculator App.jpeg" width="650" height="370" alt="Web-Design"
+                    class="w-100" />
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div class="project-card project-card-two">
+                <div class="card-content">
+                  <p class="card-type">Web Design</p>
+                  <h3 class="h3 card-title">Weather App</h3>
+                  <p class="card-text">
+                    Developed a dynamic weather application using HTML, CSS, and JavaScript. The app
+                    fetches real-time weather data using an API, displaying temperature, humidity,
+                    wind speed, and weather conditions based on user input. Implemented a responsive
+                    UI for an enhanced user experience.
+                  </p>
+                  <a href="#" class="btn-text" style="color: #090909"><span class="span">See
+                      Project</span></a>
+                </div>
+                <figure class="card-banner">
+                  <img src="./assets/images/Weather App.jpg" width="650" height="370" alt="Web-Design" class="w-100" />
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div class="project-card project-card-three">
+                <div class="card-content">
+                  <p class="card-type">Data Analytics</p>
+                  <h3 class="h3 card-title">Flipmart Sales</h3>
+                  <p class="card-text">
+                    Designed an interactive sales dashboard using Power BI to visualize key business
+                    metrics, track sales performance, and provide actionable insights through
+                    dynamic charts and reports.
+                  </p>
+                  <a href="#" class="btn-text" style="color: #0a0a0a"><span class="span">See
+                      Project</span></a>
+                </div>
+                <figure class="card-banner">
+                  <img src="./assets/images/Project-3.jpg" width="650" height="370" alt="Web-Design" class="w-100" />
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div class="project-card project-card-four">
+                <div class="card-content">
+                  <p class="card-type">Data Analytics</p>
+                  <h3 class="h3 card-title">Super Bazar Sale</h3>
+                  <p class="card-text">
+                    Designed an interactive sales dashboard using Power BI to visualize key business
+                    metrics, track sales performance, and provide actionable insights through
+                    dynamic charts and reports.
+                  </p>
+                  <a href="#" class="btn-text" style="color: #050505"><span class="span">See
+                      Project</span></a>
+                </div>
+                <figure class="card-banner">
+                  <img src="./assets/images/project-4.jpg" width="650" height="370" alt="Web-Design" class="w-100" />
+                </figure>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section class="section contact">
+        <div class="container">
+          <div class="contact-card">
+            <div class="contact-content">
+              <div class="card-icon">
+                <i style="font-size: 50px" class="fa-solid fa-envelope"></i>
+              </div>
+              <h2 class="h2 section-title">Let's Connect Me and Explore.</h2>
+              <p class="section-text">
+                "Let’s connect and explore new opportunities together! 🚀 Open to networking, collaborations, and
+                exciting projects. Let’s innovate and grow!"
+
+              </p>
+            </div>
+
+            <form action="" method="post" class="contact-form">
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field" />
+                <input type="email" name="email" placeholder="Email *" required class="input-field" />
+              </div>
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <div class="divider"></div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-inner-container">
+            <p class="copyright">© 2025 Bablu Yadav. All rights reserved.</p>
+            <ul class="social-icons-wrapper">
+              <li>
+                <a href="#" class="social-link">
+                  <p>
+                    <a href="https://www.linkedin.com/in/bablu-yadav-a72b49244/" class="btn btn-primary py-3 px-5">
+                      <i style="color: blue;" class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                  </p>
+              </li>
+              <li>
+                <a href="#" class="social-link">
+                  <p>
+                    <a href="https://github.com/BabluYadav877/" class="btn btn-primary py-3 px-5">
+                      <i style="color: skyblue;" class="fa-brands fa-github"></i> GitHub
+                    </a>
+                  </p>
+
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-link">
+                  <p>
+                    <a href="https://github.com/BabluYadav877/" class="btn btn-primary py-3 px-5">
+                      <i style="color: rgb(231, 14, 40);" class="fa-brands fa-instagram"></i>
+                      Instagram
+                    </a>
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
